@@ -1,4 +1,4 @@
-; Sat Dec 10 01:34:47 EET 2022
+; Sat Dec 10 02:14:21 EET 2022
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -6,4 +6,87 @@
 
 (defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
 	(is-a USER)
-	(role abstract))
+	(role abstract)
+	(single-slot Bits
+		(type INTEGER)
+		(range 0 11111)
+;+		(cardinality 5 1)
+		(create-accessor read-write))
+	(single-slot Bit
+		(type INTEGER)
+		(range 0 11111)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Circuit
+	(is-a USER)
+	(role concrete))
+
+(defclass Adders
+	(is-a Circuit)
+	(role concrete))
+
+(defclass Adder_1
+	(is-a Adders)
+	(role concrete))
+
+(defclass Adder_2
+	(is-a Adders)
+	(role concrete))
+
+(defclass Multipliers
+	(is-a Circuit)
+	(role concrete))
+
+(defclass Multiplier_1
+	(is-a Multipliers)
+	(role concrete))
+
+(defclass Multiplier_2
+	(is-a Multipliers)
+	(role concrete))
+
+(defclass Sensors
+	(is-a Circuit)
+	(role concrete))
+
+(defclass Sensor_1
+	(is-a Sensors)
+	(role concrete))
+
+(defclass Sensor_3
+	(is-a Sensors)
+	(role concrete))
+
+(defclass Output
+	(is-a Sensors)
+	(role concrete))
+
+(defclass Sensor_2
+	(is-a Sensors)
+	(role concrete))
+
+(defclass Inputs
+	(is-a Circuit)
+	(role concrete)
+	(single-slot Bit
+		(type INTEGER)
+		(range 0 11111)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Input_1
+	(is-a Inputs)
+	(role concrete))
+
+(defclass Input_2
+	(is-a Inputs)
+	(role concrete))
+
+(defclass Input_3
+	(is-a Inputs)
+	(role concrete))
+
+(defclass Input_4
+	(is-a Inputs)
+	(role concrete))
