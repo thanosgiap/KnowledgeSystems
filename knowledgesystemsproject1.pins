@@ -1,4 +1,60 @@
-; Sat Dec 10 02:14:21 EET 2022
+; Sun Dec 11 20:26:02 EET 2022
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
+
+([Adder_1] of  Adders
+
+	(Input_1 [Number_1])
+	(Input_2 [Number_1])
+	(is_input_to [Multiplier_1]))
+
+([Adder_2] of  Adders
+
+	(Input_1 [Multiplier_1])
+	(Input_2 [Multiplier_2])
+	(is_input_to [Output]))
+
+([M_1] of  Sensors
+
+	(Count [Adder_1]))
+
+([M_2] of  Sensors
+
+	(Count [Multiplier_1]))
+
+([M_3] of  Sensors
+
+	(Count [Multiplier_2]))
+
+([Multiplier_1] of  Multipliers
+
+	(Input_1 [Number_2])
+	(Input_2 [Adder_1])
+	(is_input_to [Adder_2]))
+
+([Multiplier_2] of  Multipliers
+
+	(Input_1 [Number_3])
+	(Input_2 [Number_4])
+	(is_input_to [Adder_2]))
+
+([Number_1] of  Inputs
+
+	(Value 21))
+
+([Number_2] of  Inputs
+
+	(Value 28))
+
+([Number_3] of  Inputs
+
+	(Value 10))
+
+([Number_4] of  Inputs
+
+	(Value 25))
+
+([Output] of  Sensors
+
+	(Count [Adder_2]))

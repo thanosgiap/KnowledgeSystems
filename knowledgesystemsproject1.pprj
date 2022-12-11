@@ -1,4 +1,4 @@
-; Sat Dec 10 02:14:21 EET 2022
+; Sun Dec 11 20:26:02 EET 2022
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -20,9 +20,9 @@
 ([BROWSER_SLOT_NAMES] of  Property_List
 
 	(properties
-		[knowledgesystemsproject1_ProjectKB_Class78]
-		[knowledgesystemsproject1_ProjectKB_Class79]
-		[knowledgesystemsproject1_ProjectKB_Class80]))
+		[knowledgesystemsproject1_ProjectKB_Class10253]
+		[knowledgesystemsproject1_ProjectKB_Class10254]
+		[knowledgesystemsproject1_ProjectKB_Class10255]))
 
 ([CLSES_TAB] of  Widget
 
@@ -63,16 +63,17 @@
 
 	(widget_class_name "edu.stanford.smi.protege.widget.InstancesTab"))
 
-([KB_312086_Class0] of  Map
-)
-
 ([KB_652135_Class0] of  String
 
 	(name "factory_class_name")
 	(string_value "edu.stanford.smi.protege.storage.clips.ClipsKnowledgeBaseFactory"))
 
 ([KB_652135_Class1] of  Map
-)
+
+	(entries
+		[knowledgesystemsproject1_ProjectKB_Class10256]
+		[knowledgesystemsproject1_ProjectKB_Class10257]
+		[knowledgesystemsproject1_ProjectKB_Class10258]))
 
 ([KB_652135_Class100] of  String
 
@@ -166,6 +167,9 @@
 	(name "classes_file_name")
 	(string_value "knowledgesystemsproject1.pont"))
 
+([KB_804480_Class0] of  Map
+)
+
 ([knowledgesystemsproject1_ProjectKB_Class1] of  Widget
 
 	(is_hidden TRUE)
@@ -175,9 +179,594 @@
 ([knowledgesystemsproject1_ProjectKB_Class10] of  Property_List
 )
 
+([knowledgesystemsproject1_ProjectKB_Class10093] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Bit_3")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10094])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 200)
+	(y 0))
+
+([knowledgesystemsproject1_ProjectKB_Class10094] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10095] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Bit_2")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10096])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 100)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10096] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10097] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Bit_1")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10098])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10098] of  Property_List
+)
+
 ([knowledgesystemsproject1_ProjectKB_Class101] of  String
 
 	(name "SearchTab_Query"))
+
+([knowledgesystemsproject1_ProjectKB_Class10103] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Bit_4")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10104])
+	(widget_class_name "edu.stanford.smi.protege.widget.IntegerFieldWidget")
+	(width 100)
+	(x 300)
+	(y 0))
+
+([knowledgesystemsproject1_ProjectKB_Class10104] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10111] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "knowledgesystemsproject1_Class14")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10112])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10112] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10113] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Adder_input_1")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10114])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10114] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10115]
+		[knowledgesystemsproject1_ProjectKB_Class10116]))
+
+([knowledgesystemsproject1_ProjectKB_Class10115] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10116] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10117] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "knowledgesystemsproject1_Class15")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10118])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10118] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10119] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Bit1")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10120])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10120] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10121]
+		[knowledgesystemsproject1_ProjectKB_Class10122]))
+
+([knowledgesystemsproject1_ProjectKB_Class10121] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10122] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10123] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "knowledgesystemsproject1_Class16")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10124])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10124] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10131] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "knowledgesystemsproject1_Class17")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10132])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10132] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10133] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "knowledgesystemsproject1_Class17")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10134])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10134] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10135] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Adder_Bit_1")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10136])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10136] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10137]
+		[knowledgesystemsproject1_ProjectKB_Class10138]))
+
+([knowledgesystemsproject1_ProjectKB_Class10137] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10138] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10157] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Input")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10158])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10158] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10159] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Input")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10160])
+	(widget_class_name "edu.stanford.smi.protege.widget.ClsFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10160] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10161] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Input")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10162])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10162] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10163]
+		[knowledgesystemsproject1_ProjectKB_Class10164]))
+
+([knowledgesystemsproject1_ProjectKB_Class10163] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10164] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10165] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "Input")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10166])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10166] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10167]
+		[knowledgesystemsproject1_ProjectKB_Class10168]))
+
+([knowledgesystemsproject1_ProjectKB_Class10167] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10168] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10169] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Input")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10170])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10170] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10171]
+		[knowledgesystemsproject1_ProjectKB_Class10172]))
+
+([knowledgesystemsproject1_ProjectKB_Class10171] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10172] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10173] of  Widget
+
+	(height 120)
+	(is_hidden FALSE)
+	(name "Input")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10174])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceListWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10174] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10175]
+		[knowledgesystemsproject1_ProjectKB_Class10176]))
+
+([knowledgesystemsproject1_ProjectKB_Class10175] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10176] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10181] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "is_input_to")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10182])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([knowledgesystemsproject1_ProjectKB_Class10182] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10187] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "knowledgesystemsproject1_Class26")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10188])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10188] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10189] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Input")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10190])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10190] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10191]
+		[knowledgesystemsproject1_ProjectKB_Class10192]))
+
+([knowledgesystemsproject1_ProjectKB_Class10191] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10192] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10193] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "is_input_to")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10194])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([knowledgesystemsproject1_ProjectKB_Class10194] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10195]
+		[knowledgesystemsproject1_ProjectKB_Class10196]))
+
+([knowledgesystemsproject1_ProjectKB_Class10195] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10196] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10197] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "knowledgesystemsproject1_Class27")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10198])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10198] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10199] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Input_1")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10200])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10200] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10201]
+		[knowledgesystemsproject1_ProjectKB_Class10202]))
+
+([knowledgesystemsproject1_ProjectKB_Class10201] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10202] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10203] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "knowledgesystemsproject1_Class28")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10204])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([knowledgesystemsproject1_ProjectKB_Class10204] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10205] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "is_input_to")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10206])
+	(widget_class_name "edu.stanford.smi.protege.widget.InstanceFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([knowledgesystemsproject1_ProjectKB_Class10206] of  Property_List
+
+	(properties
+		[knowledgesystemsproject1_ProjectKB_Class10207]
+		[knowledgesystemsproject1_ProjectKB_Class10208]))
+
+([knowledgesystemsproject1_ProjectKB_Class10207] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-View References to Value"))
+
+([knowledgesystemsproject1_ProjectKB_Class10208] of  Boolean
+
+	(boolean_value FALSE)
+	(name "ButtonDisplayed-Delete Instance"))
+
+([knowledgesystemsproject1_ProjectKB_Class10215] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Input_2")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10216])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 180))
+
+([knowledgesystemsproject1_ProjectKB_Class10216] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10225] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "knowledgesystemsproject1_Class30")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10226])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 120))
+
+([knowledgesystemsproject1_ProjectKB_Class10226] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10241] of  Widget
+
+	(height 60)
+	(is_hidden FALSE)
+	(name "Count")
+	(property_list [knowledgesystemsproject1_ProjectKB_Class10242])
+	(widget_class_name "edu.stanford.smi.protege.widget.TextFieldWidget")
+	(width 200)
+	(x 0)
+	(y 60))
+
+([knowledgesystemsproject1_ProjectKB_Class10242] of  Property_List
+)
+
+([knowledgesystemsproject1_ProjectKB_Class10253] of  String
+
+	(name ":INSTANCE-ANNOTATION")
+	(string_value "%3AANNOTATION-TEXT"))
+
+([knowledgesystemsproject1_ProjectKB_Class10254] of  String
+
+	(name ":PAL-CONSTRAINT")
+	(string_value "%3APAL-NAME"))
+
+([knowledgesystemsproject1_ProjectKB_Class10255] of  String
+
+	(name ":META-CLASS")
+	(string_value "%3ANAME"))
+
+([knowledgesystemsproject1_ProjectKB_Class10256] of  Map_Entry
+
+	(key "suppress_instance_counting")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
+
+([knowledgesystemsproject1_ProjectKB_Class10257] of  Map_Entry
+
+	(key "add_name_on_instance_form")
+	(key_class "java.lang.String")
+	(value "true")
+	(value_class "java.lang.String"))
+
+([knowledgesystemsproject1_ProjectKB_Class10258] of  Map_Entry
+
+	(key "change_tracking_active")
+	(key_class "java.lang.String")
+	(value "false")
+	(value_class "java.lang.String"))
 
 ([knowledgesystemsproject1_ProjectKB_Class11] of  Widget
 
@@ -494,23 +1083,8 @@
 ([knowledgesystemsproject1_ProjectKB_Class74] of  Property_List
 )
 
-([knowledgesystemsproject1_ProjectKB_Class78] of  String
-
-	(name ":INSTANCE-ANNOTATION")
-	(string_value "%3AANNOTATION-TEXT"))
-
-([knowledgesystemsproject1_ProjectKB_Class79] of  String
-
-	(name ":PAL-CONSTRAINT")
-	(string_value "%3APAL-NAME"))
-
 ([knowledgesystemsproject1_ProjectKB_Class8] of  Property_List
 )
-
-([knowledgesystemsproject1_ProjectKB_Class80] of  String
-
-	(name ":META-CLASS")
-	(string_value "%3ANAME"))
 
 ([knowledgesystemsproject1_ProjectKB_Class9] of  Widget
 
@@ -530,6 +1104,7 @@
 	(display_hidden_classes TRUE)
 	(display_multi_parent_class_icon TRUE)
 	(is_readonly FALSE)
+	(tabbed_instance_form_layout FALSE)
 	(undo_enabled TRUE)
 	(update_modification_slots FALSE))
 
@@ -609,6 +1184,7 @@
 	(default_facet_metaclass ":STANDARD-FACET")
 	(default_instance_widget_class_name "edu.stanford.smi.protege.widget.FormWidget")
 	(default_slot_metaclass ":STANDARD-SLOT")
+	(journaling_enabled FALSE)
 	(next_frame_number 0)
 	(options [option_instance])
 	(property_map [KB_652135_Class1])
