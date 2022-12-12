@@ -1,4 +1,4 @@
-; Sun Dec 11 20:26:02 EET 2022
+; Mon Dec 12 18:47:07 EET 2022
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -17,15 +17,15 @@
 
 ([M_1] of  Sensors
 
-	(Count [Adder_1]))
+	(Count 10))
 
 ([M_2] of  Sensors
 
-	(Count [Multiplier_1]))
+	(Count 24))
 
 ([M_3] of  Sensors
 
-	(Count [Multiplier_2]))
+	(Count 26))
 
 ([Multiplier_1] of  Multipliers
 
@@ -57,4 +57,4 @@
 
 ([Output] of  Sensors
 
-	(Count [Adder_2]))
+	(Count 18))

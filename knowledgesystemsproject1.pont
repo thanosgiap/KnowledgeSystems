@@ -1,4 +1,4 @@
-; Sun Dec 11 20:26:02 EET 2022
+; Mon Dec 12 18:47:07 EET 2022
 ; 
 ;+ (version "3.5")
 ;+ (build "Build 663")
@@ -98,8 +98,8 @@
 ;+		(cardinality 0 1)
 		(create-accessor read-write))
 	(single-slot Count
-		(type INSTANCE)
-;+		(allowed-classes Multipliers Adders)
+		(type INTEGER)
+		(range 0 31)
 ;+		(cardinality 1 1)
 		(create-accessor read-write)))
 
@@ -149,8 +149,8 @@
 	(is-a Circuit)
 	(role concrete)
 	(single-slot Count
-		(type INSTANCE)
-;+		(allowed-classes Multipliers Adders)
+		(type INTEGER)
+		(range 0 31)
 ;+		(cardinality 1 1)
 		(create-accessor read-write)))
 
